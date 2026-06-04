@@ -1,96 +1,55 @@
-<!--includes php-->
 <?php include 'includes/header.php' ?>
 
-<body>
-<!--includes navbar-->
+<body?>
 <?php include 'includes/navbar.php' ?>
+<!-- Jumbotron Section -->
+<section class="bg-gradient-to-r from-green-700 to-green-500 text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">
+            Selamat Datang di Website
+        </h1>
+        <h2 class="text-2xl md:text-4xl font-semibold mb-6">
+            Yayasan Majlis Ta'lim Roudlotunnisa
+        </h2>
 
-<!-- Hero Section -->
-<section class="bg-gradient-to-r from-blue-400 to-blue-100 text-white">
-    <div class="container mx-auto px-6 py-24">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
+        <p class="max-w-3xl mx-auto text-lg text-green-100 mb-8">
+            Menjadi wadah pembinaan keislaman, pendidikan, dakwah, dan kegiatan sosial
+            untuk membangun generasi yang berakhlak mulia dan bermanfaat bagi masyarakat.
+        </p>
 
-            <!-- Text -->
-            <div>
-                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                    Selamat Datang di Website Yayasan
-                </h1>
-
-                <p class="text-lg text-gray-100 mb-6">
-                    Bersama membangun pendidikan, kepedulian sosial, dan
-                    pemberdayaan masyarakat untuk masa depan yang lebih baik.
-                </p>
-
-                <div class="flex flex-wrap gap-4">
-                    <a href="#tentang"
-                        class="bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
-                        Tentang Kami
-                    </a>
-
-                    <a href="#program"
-                        class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-green-700 transition">
-                        Program Yayasan
-                    </a>
-                </div>
-            </div>
-
-            <!-- Image -->
-            <div class="flex justify-center">
-                <img
-                    src="assets/img/yayasan.png"
-                    alt="Yayasan"
-                    class="rounded-2xl shadow-2xl w-full max-w-md">
-            </div>
-        </div>
+        <a href="#tentang"
+            class="bg-white text-green-700 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-green-100 transition duration-300">
+            Pelajari Lebih Lanjut
+        </a>
     </div>
 </section>
 
 <!-- Tentang Yayasan -->
-<section id="tentang" class="py-20 bg-gray-100">
+<section id="tentang" class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold text-gray-800">
-                Tentang Yayasan
-            </h2>
-            <p class="text-gray-600 mt-4 max-w-3xl mx-auto">
-                Yayasan kami berkomitmen untuk memberikan kontribusi nyata
-                dalam bidang pendidikan, sosial, dan keagamaan demi
-                meningkatkan kualitas hidup masyarakat.
-            </p>
-        </div>
+        <div class="grid md:grid-cols-2 gap-10 items-center">
 
-        <div class="grid md:grid-cols-3 gap-8">
-
-            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition">
-                <div class="text-4xl mb-4">📚</div>
-                <h3 class="text-xl font-semibold mb-3">
-                    Pendidikan
-                </h3>
-                <p class="text-gray-600">
-                    Menyediakan program pendidikan, pelatihan,
-                    dan pembinaan generasi muda.
-                </p>
+            <div>
+                <img src="assets/images/masjid.jpg"
+                    alt="Majlis Talim"
+                    class="rounded-2xl shadow-lg w-full">
             </div>
 
-            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition">
-                <div class="text-4xl mb-4">🤝</div>
-                <h3 class="text-xl font-semibold mb-3">
-                    Sosial
-                </h3>
-                <p class="text-gray-600">
-                    Membantu masyarakat melalui kegiatan sosial,
-                    santunan, dan bantuan kemanusiaan.
-                </p>
-            </div>
+            <div>
+                <h2 class="text-4xl font-bold text-green-700 mb-5">
+                    Tentang Yayasan
+                </h2>
 
-            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition">
-                <div class="text-4xl mb-4">🕌</div>
-                <h3 class="text-xl font-semibold mb-3">
-                    Keagamaan
-                </h3>
-                <p class="text-gray-600">
-                    Mendukung pembinaan spiritual dan kegiatan
-                    keagamaan masyarakat.
+                <p class="text-gray-600 leading-relaxed mb-5">
+                    Yayasan Majlis Ta'lim Roudlotunnisa merupakan lembaga yang bergerak
+                    di bidang pendidikan, dakwah, dan sosial kemasyarakatan. Kami hadir
+                    untuk membina umat melalui kajian Islam, pendidikan Al-Qur’an,
+                    kegiatan sosial, dan pengembangan akhlak Islami.
+                </p>
+
+                <p class="text-gray-600 leading-relaxed">
+                    Dengan semangat ukhuwah Islamiyah, kami berkomitmen untuk menciptakan
+                    lingkungan pembelajaran yang bermanfaat dan penuh keberkahan.
                 </p>
             </div>
 
@@ -99,98 +58,89 @@
 </section>
 
 <!-- Program Yayasan -->
-<section id="program" class="py-20">
-    <div class="container mx-auto px-6">
+<section class="py-20 bg-green-50">
+    <div class="container mx-auto px-6 text-center">
 
-        <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold text-gray-800">
-                Program Unggulan
-            </h2>
-            <p class="text-gray-600 mt-4">
-                Beberapa kegiatan utama yang kami jalankan
-            </p>
-        </div>
+        <h2 class="text-4xl font-bold text-green-700 mb-4">
+            Program Kegiatan
+        </h2>
+
+        <p class="text-gray-600 mb-12">
+            Beberapa kegiatan yang dilaksanakan oleh Yayasan Majlis Ta'lim Roudlotunnisa
+        </p>
 
         <div class="grid md:grid-cols-3 gap-8">
 
-            <div class="bg-white border rounded-xl overflow-hidden shadow hover:shadow-lg transition">
-                <img
-                    src="assets/img/program1.jpg"
-                    class="w-full h-56 object-cover"
-                    alt="Program Pendidikan">
-
-                <div class="p-6">
-                    <h3 class="font-bold text-xl mb-3">
-                        Pendidikan Anak
-                    </h3>
-                    <p class="text-gray-600">
-                        Program pendidikan formal dan nonformal
-                        untuk meningkatkan kualitas generasi muda.
-                    </p>
-                </div>
+            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+                <div class="text-5xl mb-4">📖</div>
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">
+                    Pengajian Rutin
+                </h3>
+                <p class="text-gray-600">
+                    Kajian Islam dan pembelajaran keagamaan secara rutin
+                    untuk jamaah dari berbagai usia.
+                </p>
             </div>
 
-            <div class="bg-white border rounded-xl overflow-hidden shadow hover:shadow-lg transition">
-                <img
-                    src="assets/img/program2.jpg"
-                    class="w-full h-56 object-cover"
-                    alt="Santunan Sosial">
-
-                <div class="p-6">
-                    <h3 class="font-bold text-xl mb-3">
-                        Santunan Sosial
-                    </h3>
-                    <p class="text-gray-600">
-                        Memberikan bantuan kepada masyarakat
-                        yang membutuhkan.
-                    </p>
-                </div>
+            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+                <div class="text-5xl mb-4">🕌</div>
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">
+                    Pendidikan Islam
+                </h3>
+                <p class="text-gray-600">
+                    Program pendidikan Al-Qur’an dan pembinaan akhlak
+                    untuk anak-anak dan remaja.
+                </p>
             </div>
 
-            <div class="bg-white border rounded-xl overflow-hidden shadow hover:shadow-lg transition">
-                <img
-                    src="assets/img/program3.jpg"
-                    class="w-full h-56 object-cover"
-                    alt="Kegiatan Keagamaan">
-
-                <div class="p-6">
-                    <h3 class="font-bold text-xl mb-3">
-                        Kegiatan Keagamaan
-                    </h3>
-                    <p class="text-gray-600">
-                        Kajian, pembinaan, dan kegiatan spiritual
-                        bersama masyarakat.
-                    </p>
-                </div>
+            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+                <div class="text-5xl mb-4">🤝</div>
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">
+                    Kegiatan Sosial
+                </h3>
+                <p class="text-gray-600">
+                    Santunan, bantuan sosial, dan berbagai kegiatan
+                    kemasyarakatan lainnya.
+                </p>
             </div>
 
         </div>
     </div>
 </section>
 
-<!-- Statistik -->
-<section class="bg-green-700 text-white py-16">
+<!-- Visi & Misi -->
+<section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <div class="grid md:grid-cols-4 gap-8 text-center">
 
-            <div>
-                <h2 class="text-4xl font-bold">500+</h2>
-                <p>Penerima Manfaat</p>
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-green-700">
+                Visi & Misi
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <div class="bg-green-100 p-8 rounded-2xl shadow">
+                <h3 class="text-2xl font-bold text-green-700 mb-4">
+                    Visi
+                </h3>
+                <p class="text-gray-700">
+                    Menjadi lembaga dakwah dan pendidikan Islam yang
+                    berkontribusi dalam membentuk masyarakat beriman,
+                    berilmu, dan berakhlak mulia.
+                </p>
             </div>
 
-            <div>
-                <h2 class="text-4xl font-bold">20+</h2>
-                <p>Program Sosial</p>
-            </div>
-
-            <div>
-                <h2 class="text-4xl font-bold">10+</h2>
-                <p>Tahun Pengabdian</p>
-            </div>
-
-            <div>
-                <h2 class="text-4xl font-bold">100+</h2>
-                <p>Relawan Aktif</p>
+            <div class="bg-green-100 p-8 rounded-2xl shadow">
+                <h3 class="text-2xl font-bold text-green-700 mb-4">
+                    Misi
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Menyelenggarakan pendidikan dan kajian Islam.</li>
+                    <li>Meningkatkan kualitas akhlak dan spiritual masyarakat.</li>
+                    <li>Melaksanakan kegiatan sosial dan dakwah.</li>
+                    <li>Membangun generasi Islami yang unggul.</li>
+                </ul>
             </div>
 
         </div>
@@ -198,34 +148,21 @@
 </section>
 
 <!-- CTA -->
-<section class="py-20 bg-gray-100">
+<section class="bg-green-700 text-white py-16">
     <div class="container mx-auto px-6 text-center">
-
-        <h2 class="text-3xl font-bold mb-4">
-            Mari Bersama Membangun Kebaikan
+        <h2 class="text-4xl font-bold mb-4">
+            Mari Bergabung Bersama Kami
         </h2>
 
-        <p class="text-gray-600 mb-8">
-            Dukung program yayasan untuk pendidikan, sosial,
-            dan kegiatan kemasyarakatan.
+        <p class="text-green-100 mb-8">
+            Ikuti kegiatan Majlis Ta'lim dan berkontribusi dalam dakwah serta kegiatan sosial.
         </p>
 
         <a href="#"
-            class="bg-green-700 text-white px-8 py-4 rounded-lg hover:bg-green-800 transition">
+            class="bg-white text-green-700 px-8 py-3 rounded-full font-semibold hover:bg-green-100 transition">
             Hubungi Kami
         </a>
-
     </div>
 </section>
-
-<!-- Footer -->
-<footer class="bg-gray-900 text-gray-300 py-6">
-    <div class="container mx-auto px-6 text-center">
-        <p>
-            © <?= date('Y') ?> Yayasan Anda. All Rights Reserved.
-        </p>
-    </div>
-</footer>
-
 </body>
 </html>
