@@ -1,168 +1,178 @@
 <?php include 'includes/header.php' ?>
 
-<body?>
-<?php include 'includes/navbar.php' ?>
-<!-- Jumbotron Section -->
-<section class="bg-gradient-to-r from-green-700 to-green-500 text-white py-20">
-    <div class="container mx-auto px-6 text-center">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">
-            Selamat Datang di Website
-        </h1>
-        <h2 class="text-2xl md:text-4xl font-semibold mb-6">
-            Yayasan Majlis Ta'lim Roudlotunnisa
-        </h2>
+<?php include 'includes/header.php'; ?>
+<?php include 'includes/navbar.php'; ?>
 
-        <p class="max-w-3xl mx-auto text-lg text-green-100 mb-8">
-            Menjadi wadah pembinaan keislaman, pendidikan, dakwah, dan kegiatan sosial
-            untuk membangun generasi yang berakhlak mulia dan bermanfaat bagi masyarakat.
-        </p>
+<!-- HERO -->
+<section class="hero relative">
 
-        <a href="#tentang"
-            class="bg-white text-green-700 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-green-100 transition duration-300">
-            Pelajari Lebih Lanjut
-        </a>
+    <div class="hero-overlay">
+        <div class="container mx-auto px-8">
+
+            <div class="max-w-xl py-32">
+                <span class="badge">
+                    Yayasan Majlis Ta'lim
+                </span>
+
+                <h1 class="text-5xl font-bold text-green-900 mt-4">
+                    Membangun Umat Melalui
+                    Ilmu dan Taqwa
+                </h1>
+
+                <p class="mt-5 text-gray-700">
+                    Menghadirkan kajian Islam, pendidikan dan kegiatan sosial
+                    untuk masyarakat yang lebih baik.
+                </p>
+
+                <div class="mt-8 flex gap-4">
+                    <a href="#" class="btn-primary">
+                        Mulai Belajar
+                    </a>
+
+                    <a href="#" class="btn-secondary">
+                        Donasi Sekarang
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </div>
+
 </section>
 
-<!-- Tentang Yayasan -->
-<section id="tentang" class="py-20 bg-white">
+
+
+<!-- TENTANG -->
+<section class="py-24">
     <div class="container mx-auto px-6">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
 
             <div>
-                <img src="assets/images/masjid.jpg"
-                    alt="Majlis Talim"
-                    class="rounded-2xl shadow-lg w-full">
+                <img src="assets/images/kegiatan.jpg"
+                     class="rounded-2xl shadow-xl w-full">
             </div>
 
             <div>
-                <h2 class="text-4xl font-bold text-green-700 mb-5">
-                    Tentang Yayasan
+                <span class="section-label">
+                    TENTANG KAMI
+                </span>
+
+                <h2 class="text-4xl font-bold text-green-900 mt-4">
+                    Visi & Misi Kami
                 </h2>
 
-                <p class="text-gray-600 leading-relaxed mb-5">
-                    Yayasan Majlis Ta'lim Roudlotunnisa merupakan lembaga yang bergerak
-                    di bidang pendidikan, dakwah, dan sosial kemasyarakatan. Kami hadir
-                    untuk membina umat melalui kajian Islam, pendidikan Al-Qur’an,
-                    kegiatan sosial, dan pengembangan akhlak Islami.
+                <p class="mt-4 text-gray-600">
+                    Kami berdedikasi membangun umat melalui pendidikan,
+                    dakwah dan kegiatan sosial.
                 </p>
 
-                <p class="text-gray-600 leading-relaxed">
-                    Dengan semangat ukhuwah Islamiyah, kami berkomitmen untuk menciptakan
-                    lingkungan pembelajaran yang bermanfaat dan penuh keberkahan.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- Program Yayasan -->
-<section class="py-20 bg-green-50">
-    <div class="container mx-auto px-6 text-center">
-
-        <h2 class="text-4xl font-bold text-green-700 mb-4">
-            Program Kegiatan
-        </h2>
-
-        <p class="text-gray-600 mb-12">
-            Beberapa kegiatan yang dilaksanakan oleh Yayasan Majlis Ta'lim Roudlotunnisa
-        </p>
-
-        <div class="grid md:grid-cols-3 gap-8">
-
-            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
-                <div class="text-5xl mb-4">📖</div>
-                <h3 class="text-2xl font-semibold text-green-700 mb-3">
-                    Pengajian Rutin
-                </h3>
-                <p class="text-gray-600">
-                    Kajian Islam dan pembelajaran keagamaan secara rutin
-                    untuk jamaah dari berbagai usia.
-                </p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
-                <div class="text-5xl mb-4">🕌</div>
-                <h3 class="text-2xl font-semibold text-green-700 mb-3">
-                    Pendidikan Islam
-                </h3>
-                <p class="text-gray-600">
-                    Program pendidikan Al-Qur’an dan pembinaan akhlak
-                    untuk anak-anak dan remaja.
-                </p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
-                <div class="text-5xl mb-4">🤝</div>
-                <h3 class="text-2xl font-semibold text-green-700 mb-3">
-                    Kegiatan Sosial
-                </h3>
-                <p class="text-gray-600">
-                    Santunan, bantuan sosial, dan berbagai kegiatan
-                    kemasyarakatan lainnya.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- Visi & Misi -->
-<section class="py-20 bg-white">
-    <div class="container mx-auto px-6">
-
-        <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-green-700">
-                Visi & Misi
-            </h2>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8">
-
-            <div class="bg-green-100 p-8 rounded-2xl shadow">
-                <h3 class="text-2xl font-bold text-green-700 mb-4">
-                    Visi
-                </h3>
-                <p class="text-gray-700">
-                    Menjadi lembaga dakwah dan pendidikan Islam yang
-                    berkontribusi dalam membentuk masyarakat beriman,
-                    berilmu, dan berakhlak mulia.
-                </p>
-            </div>
-
-            <div class="bg-green-100 p-8 rounded-2xl shadow">
-                <h3 class="text-2xl font-bold text-green-700 mb-4">
-                    Misi
-                </h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Menyelenggarakan pendidikan dan kajian Islam.</li>
-                    <li>Meningkatkan kualitas akhlak dan spiritual masyarakat.</li>
-                    <li>Melaksanakan kegiatan sosial dan dakwah.</li>
-                    <li>Membangun generasi Islami yang unggul.</li>
+                <ul class="mt-8 space-y-4">
+                    <li>✓ Pendidikan Berkelanjutan</li>
+                    <li>✓ Pemberdayaan Masyarakat</li>
+                    <li>✓ Inovasi Spiritual</li>
                 </ul>
             </div>
 
         </div>
+
     </div>
 </section>
 
-<!-- CTA -->
-<section class="bg-green-700 text-white py-16">
-    <div class="container mx-auto px-6 text-center">
-        <h2 class="text-4xl font-bold mb-4">
-            Mari Bergabung Bersama Kami
+<!-- PROGRAM -->
+<section class="py-20 bg-white">
+
+    <div class="container mx-auto px-6">
+
+        <div class="flex justify-between mb-10">
+            <div>
+                <h2 class="text-4xl font-bold text-green-900">
+                    Program Terbaru
+                </h2>
+            </div>
+
+            <a href="program.php">
+                Lihat Semua Program →
+            </a>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-6">
+
+            <div class="lg:col-span-2">
+                <div class="program-large">
+                    <div class="overlay">
+                        <h3>Madrasah Akhir Pekan</h3>
+
+                        <p>
+                            Program intensif setiap Sabtu dan Minggu.
+                        </p>
+
+                        <button>
+                            Pelajari Selengkapnya
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+
+                <div class="program-small">
+                    <img src="assets/images/program1.jpg">
+                    <div>
+                        <h3>Zakat Community</h3>
+                        <p>Program pemberdayaan umat.</p>
+                    </div>
+                </div>
+
+                <div class="program-small">
+                    <img src="assets/images/program2.jpg">
+                    <div>
+                        <h3>Generasi Sholih</h3>
+                        <p>Kajian interaktif dan keluarga.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- JADWAL KAJIAN -->
+<section class="py-24">
+
+    <div class="container mx-auto px-6">
+
+        <h2 class="text-center text-4xl font-bold text-green-900">
+            Jadwal Kajian Rutin
         </h2>
 
-        <p class="text-green-100 mb-8">
-            Ikuti kegiatan Majlis Ta'lim dan berkontribusi dalam dakwah serta kegiatan sosial.
-        </p>
+        <div class="mt-12 space-y-4">
 
-        <a href="#"
-            class="bg-white text-green-700 px-8 py-3 rounded-full font-semibold hover:bg-green-100 transition">
-            Hubungi Kami
-        </a>
+            <div class="kajian-card">
+                <div>Senin</div>
+                <div>Tafsir Jalalain</div>
+                <div>Masjid Utama</div>
+            </div>
+
+            <div class="kajian-card">
+                <div>Rabu</div>
+                <div>Fiqih Wanita</div>
+                <div>Live Streaming</div>
+            </div>
+
+            <div class="kajian-card active">
+                <div>Jumat</div>
+                <div>Dzikir Akbar</div>
+                <div>Daftar Hadir</div>
+            </div>
+
+        </div>
+
     </div>
+
 </section>
-</body>
-</html>
+
+<?php include 'includes/footer.php'; ?> 

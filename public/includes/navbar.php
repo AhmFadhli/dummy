@@ -1,9 +1,10 @@
+<body>
 <section class="navbar">
     <div class="navbar-container">
 
         <!-- Logo dan Nama Yayasan -->
         <div class="logo-section">
-            <img src="img/logo.jpeg" alt="Logo Yayasan" class="logo">
+            <img src="assets/images/logo.png" alt="Logo Yayasan" class="logo">
 
             <div class="logo-text">
                 <h2>Yayasan Majlis Ta'lim Roudlotunnisa</h2>
