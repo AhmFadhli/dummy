@@ -9,9 +9,17 @@
 </head>
 <?php include 'includes/navbar.php' ?>
 
+<!-- Header -->
 <section id="header" >
     <div class="hero">
-        <div class="container mx-auto px-8">
+        <div class="container mx-auto px-8 justify-center">
+            <div class="max-w-xl py-12 text-center">
+                <h1 class="text-5xl font-bold text-green-900 mt-4">
+                    Program Majlis Ta'lim
+                </h1>
+
+            </div>
+
 
         </div>
     </div>

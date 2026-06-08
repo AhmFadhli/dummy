@@ -66,7 +66,15 @@ a {
   color: #ffd700;
 }
 
-/* Responsive */
+.tombol{
+  display: none;
+  color: black;
+  font-size:16px;
+  font-weight:500;
+  transition: 0.3s;
+}
+
+/* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar {
     padding: 15px 20px;
@@ -85,7 +93,7 @@ a {
   .menu {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 15px;.
   }
 }
 
