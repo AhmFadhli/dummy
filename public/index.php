@@ -1,12 +1,19 @@
-<?php include 'includes/header.php' ?>
-
-<?php include 'includes/header.php'; ?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Majlis Ta'lim</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/index.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 <?php include 'includes/navbar.php'; ?>
 
-<!-- HERO -->
-<section class="hero relative">
+<!-- Header -->
+<section id="header" class="hero relative">
 
-    <div class="hero-overlay">
+    <div class="hero-overlay" style="">
         <div class="container mx-auto px-8">
 
             <div class="max-w-xl py-32">
@@ -42,7 +49,7 @@
 
 
 
-<!-- TENTANG -->
+<!-- Tentang -->
 <section class="py-24">
     <div class="container mx-auto px-6">
 
@@ -79,7 +86,7 @@
     </div>
 </section>
 
-<!-- PROGRAM -->
+<!-- Program -->
 <section class="py-20 bg-white">
 
     <div class="container mx-auto px-6">
@@ -140,7 +147,7 @@
 
 </section>
 
-<!-- JADWAL KAJIAN -->
+<!-- JADWAL -->
 <section class="py-24">
 
     <div class="container mx-auto px-6">

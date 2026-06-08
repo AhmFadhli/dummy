@@ -1,0 +1,92 @@
+.hero {
+  background: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: linear-gradient(to right, rgba(240, 253, 244, 0.95), rgba(220, 252, 231, 0.7), rgba(22, 101, 52, 0.2));
+
+  min-height: 90vh;
+}
+
+.badge {
+  background: #d9f99d;
+  color: #166534;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #166534;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+.btn-secondary {
+  background: #854d0e;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+/* LABEL */
+
+.section-label {
+  color: #15803d;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+/* PROGRAM */
+
+.program-large {
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: url("../images/ngaji.jpeg");
+  background-size: cover;
+  position: relative;
+}
+
+.program-large .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 80, 0, 0.5), rgba(0, 0, 0, 0.1));
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.program-small {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+}
+
+.program-small img {
+  width: 120px;
+  object-fit: cover;
+}
+
+/* KAJIAN */
+
+.kajian-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kajian-card.active {
+  background: #2e7d32;
+  color: white;
+}

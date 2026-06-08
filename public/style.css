@@ -89,17 +89,8 @@ a {
   }
 }
 
+//dari sini hingga bawah bagian yang ada di index.css
 .hero {
-  min-height: 90vh;
-  background: url("assets/images/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.hero-overlay {
-  background: linear-gradient(to right, rgba(240, 253, 244, 0.95), rgba(220, 252, 231, 0.7), rgba(22, 101, 52, 0.2));
-
   min-height: 90vh;
 }
 
