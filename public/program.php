@@ -10,17 +10,18 @@
 <?php include 'includes/navbar.php' ?>
 
 <!-- Header -->
-<section id="header" >
-    <div class="hero">
-        <div class="container mx-auto px-8 justify-center">
-            <div class="max-w-xl py-12 text-center">
-                <h1 class="text-5xl font-bold text-green-900 mt-4">
+<section id="header">
+    <div class="hero flex py-24 justify-center min-h-screen">
+        <div class="container mx-auto px-8">
+            <div class="max-w-xl text-center mx-auto">
+                <h1 class="text-5xl font-bold text-green-900">
                     Program Majlis Ta'lim
                 </h1>
 
+                <p class="mt-5" text-gray-700>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae unde non, asperiores, quasi exercitationem amet libero eveniet quod, dolorum labore voluptatibus. Deleniti rerum voluptatibus laborum eius molestiae omnis at tempore!
+                </p>
             </div>
-
-
         </div>
     </div>
 </section>
