@@ -108,15 +108,65 @@
 }
 
 .program-small {
-  background: white;
-  border-radius: 15px;
+  background: #fff;
+  border-radius: 12px;
   overflow: hidden;
   display: flex;
+  justify-content: space-between;
+  min-height: 215px;
+  border: 1px solid #e5e7eb;
+  transition: 0.3s ease;
+}
+
+.program-small:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.program-content {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.program-tag {
+  font-size: 11px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.program-small h3 {
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 10px;
+}
+
+.program-small p {
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.program-small a {
+  font-size: 12px;
+  color: #6b7280;
+  text-decoration: none;
+}
+
+.program-small a:hover {
+  color: #166534;
 }
 
 .program-small img {
-  width: 120px;
+  width: 10rem;
+  height: auto;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* KAJIAN */
