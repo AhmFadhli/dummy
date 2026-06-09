@@ -13,7 +13,7 @@
 <!-- Header -->
 <section id="header" class="hero relative">
 
-    <div class="hero-overlay" style="">
+    <div class="hero-overlay">
         <div class="container mx-auto px-8">
 
             <div class="max-w-xl py-32">
@@ -107,16 +107,20 @@
 
             <div class="lg:col-span-2">
                 <div class="program-large">
+                    <span class="badge-top">
+                    Yayasan Majlis Ta'lim
+                </span>
                     <div class="overlay">
-                        <h3>Madrasah Akhir Pekan</h3>
+                        
+                        <h3 class="text-2xl font-bold">Madrasah Akhir Pekan</h3>
 
                         <p>
                             Program intensif setiap Sabtu dan Minggu.
                         </p>
 
-                        <button>
+                        <a href="" class="badge-bottom">
                             Pelajari Selengkapnya
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -126,7 +130,7 @@
                 <div class="program-small">
                     <img src="assets/images/program1.jpg">
                     <div>
-                        <h3>Zakat Community</h3>
+                        <h3 class="text-2xl font-bold">Zakat Community</h3>
                         <p>Program pemberdayaan umat.</p>
                     </div>
                 </div>
@@ -134,7 +138,7 @@
                 <div class="program-small">
                     <img src="assets/images/program2.jpg">
                     <div>
-                        <h3>Generasi Sholih</h3>
+                        <h3 class="text-2xl font-bold">Generasi Sholih</h3>
                         <p>Kajian interaktif dan keluarga.</p>
                     </div>
                 </div>

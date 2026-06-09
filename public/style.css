@@ -98,10 +98,7 @@ a {
 }
 
 //dari sini hingga bawah adalah bagian yang ada di index.css
-.hero {
-  min-height: 90vh;
-}
-
+/*
 .badge {
   background: #d9f99d;
   color: #166534;
@@ -124,7 +121,7 @@ a {
   border-radius: 10px;
 }
 
-/* LABEL */
+//LABEL 
 
 .section-label {
   color: #15803d;
@@ -132,7 +129,7 @@ a {
   letter-spacing: 2px;
 }
 
-/* PROGRAM */
+// PROGRAM
 
 .program-large {
   height: 450px;
@@ -166,7 +163,7 @@ a {
   object-fit: cover;
 }
 
-/* KAJIAN */
+// KAJIAN
 
 .kajian-card {
   background: white;
