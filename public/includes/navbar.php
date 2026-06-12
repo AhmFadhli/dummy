@@ -1,4 +1,3 @@
-<body>
 <section class="navbar">
     <div class="navbar-container">
 
@@ -23,3 +22,4 @@
 		</div>
     </div>
 </section>
+<body>

@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website Majlis Ta'lim</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <?php include 'includes/navbar.php'; ?>
 
@@ -33,14 +32,14 @@
   <!-- Akhir Hero -->
 
   <!-- Tentang -->
-  <section class="py-24">
+  <section class="py-24 bg-emerald-100">
     <div class="container mx-auto px-6">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img src="assets/images/kegiatan.jpg" class="rounded-2xl shadow-xl w-full" />
         </div>
 
-        <div>
+        <div class="p-8" style="background: beige;">
           <span class="section-label"> TENTANG KAMI </span>
 
           <h2 class="text-4xl font-bold text-green-900 mt-4">Visi & Misi Kami</h2>
@@ -123,7 +122,7 @@
   <!-- Akhir Program -->
 
   <!-- JADWAL -->
-  <section class="py-24">
+  <section class="py-24 bg-emerald-100">
     <div class="container mx-auto px-6">
       <h2 class="text-center text-4xl font-bold text-green-900">Jadwal Kajian Rutin</h2>
 
@@ -151,4 +150,3 @@
   <!-- Akhir Jadwal -->
 
   <?php include 'includes/footer.php'; ?>
-</html>
